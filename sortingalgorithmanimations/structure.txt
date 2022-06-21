@@ -1,0 +1,20 @@
+- High level structure
+    - JFrame frame;
+	- Main extends JApplet
+	    - ctor
+		- layout = 1x1;
+		- SortPanelHolder sortPanelHolder
+		    - layout = 3x3;
+		    - background = foreground = black
+		- screenSize = screen size
+		- width, height = screenSize / 3
+		- 9x SortPanel
+		    - setVisible(false);
+		    sortPanelHolder.add(9x SortPanel);
+		- add(sortPanelHolder);
+
+	    - SortPanelHolder extends JPanel
+		- SortPanel extends JPanel
+		    - BubbleSortPanel
+		    - MergeSortPanel
+		    7x ...
