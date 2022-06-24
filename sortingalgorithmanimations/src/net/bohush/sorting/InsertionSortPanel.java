@@ -15,7 +15,7 @@ public class InsertionSortPanel extends SortPanel {
 	@Override
 	public void reset() {
 		redColumn = -1;
-		greenColumn = -1;		
+		greenColumn = ---1;		
 	}
 
 	@Override
