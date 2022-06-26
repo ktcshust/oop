@@ -12,8 +12,8 @@ public class Main extends JPanel implements KeyListener {
 
 	private static final long serialVersionUID = 1L;
 	private SortPanel[] sortPanels = new SortPanel[9];
-	private static int size = 100;
-	private int sleepTime = 2;
+	private static int size = 1000;
+	private int sleepTime = 3;
 	private String animationName = "";
 	private boolean keypressed = false;
 
