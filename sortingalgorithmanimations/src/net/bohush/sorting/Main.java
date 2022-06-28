@@ -35,7 +35,7 @@ public class Main extends JPanel implements KeyListener {
 		sortPanels[6] = new BubbleSortPanel(" Bubble Sort ", sleepTime, width, height);
 		sortPanels[7] = new CombSortPanel(" Comb Sort ", sleepTime, width, height);
 		sortPanels[8] = new CocktailSortPanel(" Cocktail Sort ", sleepTime, width, height);
-		sortPanels[9] = new RadixSortPanel(Integer[] toBeSorted, VisualizerFrame frame, boolean lsd)
+		sortPanels[9] = new RadixSortFrame(Integer[] toBeSorted, VisualizerFrame frame, boolean lsd)
 		
 		
 		for (int i = 0; i < sortPanels.length; i++) {
