@@ -3,7 +3,7 @@ package net.bohush.sorting;
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class RadixSortPanel extends SortPanel {
+public class RadixSortFrame extends VisualizerFrame {
 private Integer[] toBeSorted;
 	private VisualizerFrame frame;
 	private boolean lsd;
@@ -164,16 +164,4 @@ public void run() {
 		}
 		return digit;
 	}
-© 2022 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
+
