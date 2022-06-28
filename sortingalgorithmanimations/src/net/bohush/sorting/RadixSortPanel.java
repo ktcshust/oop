@@ -3,7 +3,7 @@ package net.bohush.sorting;
 import java.awt.Color;
 import java.awt.Graphics;
 
-public class BubbleSortPanel extends SortPanel {
+public class RadixSortPanel extends SortPanel {
 private Integer[] toBeSorted;
 	private VisualizerFrame frame;
 	private boolean lsd;
